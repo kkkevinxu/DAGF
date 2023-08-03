@@ -19,7 +19,7 @@ from option import args
 from data import get_dataloader
 from importlib import import_module
 
-args.scale = 8
+args.scale = 16
 args.down_type = 'nearest'
 
 device = torch.device('cpu' if args.cpu else 'cuda')

@@ -18,7 +18,7 @@ import random
 import numpy as np
 from PIL import Image
 import torch.optim as optim
-from collections import Iterable
+from collections.abc import Iterable
 from skimage.transform import resize
 
 
